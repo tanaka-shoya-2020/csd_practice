@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c81070-3387-4b3b-8f6e-f9f61f8e3a6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FizzBazzTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/combine_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combine_number.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizz_buzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizz_buzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/porker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/porker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spell_out.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spell_out.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csd_training/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csd_training/combine_number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBazz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBazzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBazzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,8 +86,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FizzBazzTest" />
-        <item itemvalue="Application.combine_number" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.combine_number" />
       </list>
     </recent_temporary>
   </component>
