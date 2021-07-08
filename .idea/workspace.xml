@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c81070-3387-4b3b-8f6e-f9f61f8e3a6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SpellOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBazzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBazzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpellOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpellOut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBazzTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="csd_training" />
@@ -79,8 +80,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csd_training" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBazzTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.combine_number" />
@@ -108,5 +119,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
