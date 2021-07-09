@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05c81070-3387-4b3b-8f6e-f9f61f8e3a6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csd_training/Porker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/Porker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/csd_training/PorkerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/PorkerTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/csd_training/PorkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/PorkerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Porker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Porker.java" afterDir="false" />
@@ -58,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PorkerTest.Porker">
+  <component name="RunManager" selected="JUnit.PorkerTest">
     <configuration name="FizzBazzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csd_training" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PorkerTest.Porker" />
         <item itemvalue="JUnit.PorkerTest" />
+        <item itemvalue="JUnit.PorkerTest.Porker" />
         <item itemvalue="JUnit.SpellOutTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBazzTest" />

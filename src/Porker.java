@@ -1,15 +1,40 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Porker {
 
-    public List<String> sort(List<String> pokerHand) {
-      String card = null;
-      int num;
+    public Map<Integer,String> changeCardInfo(List<String> pokerHand) {
+        String card = null;
+        Map<Integer,String> cardInfo = new HashMap<>();
         for (int i = 0; i < pokerHand.size(); i++) {
             card = pokerHand.get(i);
-            num = Character.getNumericValue(card.charAt(0));
+            String cardString = card.substring(0,1);
+            switch (cardString) {
+                case "A":
+                    cardString = "1";
+                case "J":
+                    cardString = "11";
+                case "Q":
+                    cardString = "12";
+                case "K":
+                    cardString = "13";
+            }
+            int num = Integer.parseInt(cardString);
+            cardInfo.put(num, card.substring(1,2));
+        }
+        return cardInfo;
+    }
+
+    public List<Integer> pickUpNumber(Map<Integer,String> cardInfo) {
+        List<Integer> pickUpNumber = new ArrayList<>();
+        pickUpNumber.addAll(cardInfo.keySet());
+        return pickUpNumber;
+    }
+
+    public String checkFullHouse(Map<Integer,String> cardInfo) {
+        List<Integer> pickUpNumber = pickUpNumber(cardInfo);
+        System.out.println(pickUpNumber);
+        for (Integer k : pickUpNumber){
+            pickUpNumber.get(k);
         }
         return null;
     }
@@ -32,14 +57,14 @@ public class Porker {
         Collections.addAll(clubHand, "AC", "2C", "3C", "4C", "5C", "6C", "7C", "8C", "9C", "10C",
                 "JC", "QC", "KC");
 
-        // ポーカーの手札の並べ替え(sortを行う)
-        List<String> sotedHand = sort(pokerHand);
-        // イメージ "2H 4S 4C 2D 4H" => "2H 2D 4H 4S 4C"
+        // カードの情報を変更)
+        Map<Integer, String> cardInfo = changeCardInfo(pokerHand);
 
         // ポーカーの手札がストレートフラッシュの時
         // ロイヤルストレートフラッシュである時(種類が一種類、数字が段々になっている)
         // フォーカードである時
         // フルハウスである時
+        String showDown =  checkFullHouse(cardInfo);
         // フラッシュであった時
         // ストレートであった時
         // スリーカードであった時
@@ -47,8 +72,6 @@ public class Porker {
         // ワンペアであった時
         // ノーハンドであった時
 
-
-        System.out.println("foobar");
-        return "foobar";
+        return "showDown";
     }
 }
