@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05c81070-3387-4b3b-8f6e-f9f61f8e3a6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PorkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csd_training/PorkerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/PorkerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/csd_training/PorkerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/csd_training/PorkerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Porker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Porker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PorkerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -55,14 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PorkerTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="csd_training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PorkerTest.Porker">
     <configuration name="FizzBazzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csd_training" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,6 +86,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PorkerTest.Porker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="csd_training" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PorkerTest" />
+      <option name="METHOD_NAME" value="Porker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpellOutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="csd_training" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PorkerTest.Porker" />
         <item itemvalue="JUnit.PorkerTest" />
         <item itemvalue="JUnit.SpellOutTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.FizzBazzTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
